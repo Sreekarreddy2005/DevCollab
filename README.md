@@ -1,4 +1,4 @@
-# Next.js Project + Spring Boot + PostgreSQL
+# DevCollab - Real-Time Development Team Collaboration Platform
 ## Project Description:
 This Full-Stack Project which i called IronMuscle with Next.js, Spring Boot and PostgreSQL is a modern web application that combines a dynamic, server-rendered frontend built with Next.js, a backend using Spring Boot and PostgreSQL database. Тhe purpose of this application is to share your experience at Cross Fit or Fitness, which experience will be posted at the Blog from the Menu and saved in PostgreSQL. Information at the Blog includes a title, user name, email and experience. The application allows you to delete someones blog. Also you will find News from the menu where you can read some interesting articles about fitness world which are in-memory loaded.
 
