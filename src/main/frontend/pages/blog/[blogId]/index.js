@@ -35,7 +35,7 @@ function BlogDetailsPage(props) {
 
 export async function getStaticPaths() {
     try {
-        const response = await fetch("http://localhost:8080/api/blog");
+        const response = await fetch("http://localhost:9090/api/blog");
 
         try {
             const blogs = await response.json();
@@ -71,7 +71,7 @@ export async function getStaticProps(context) {
     const blogId = context.params.blogId;
 
     try {
-        const response = await fetch(`http://localhost:8080/api/blog/${blogId}`);
+        const response = await fetch(`http://localhost:9090/api/blog/${blogId}`);
 
         try {
             const selectedBlog = await response.json();

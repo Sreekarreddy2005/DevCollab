@@ -9,7 +9,7 @@ function ShareExperience() {
 
     async function handlerShareExp(shareExpData) {
         try {
-            const response = await fetch("http://localhost:8080/api/blog",
+            const response = await fetch("http://localhost:9090/api/blog",
                 {
                     method: "POST",
                     body: JSON.stringify(shareExpData),

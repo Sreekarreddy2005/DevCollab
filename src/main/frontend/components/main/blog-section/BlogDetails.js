@@ -10,7 +10,7 @@ function BlogDetails(props) {
         const confirmDelete = window.confirm(`Do you want to Delete ${props.title}?`);
         if (confirmDelete) {
             try {
-                const response = await fetch(`http://localhost:8080/api/blog/${props.id}`, {
+                const response = await fetch(`http://localhost:9090/api/blog/${props.id}`, {
                     method: "DELETE"
                 });
 

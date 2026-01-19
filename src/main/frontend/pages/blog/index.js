@@ -22,7 +22,7 @@ export async function getStaticProps() {
     }
 
     try {
-        const response = await fetch("http://localhost:8080/api/blog");
+        const response = await fetch("http://localhost:9090/api/blog");
 
         try {
             const blogs = await response.json();
